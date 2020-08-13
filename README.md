@@ -4,7 +4,7 @@ A tool to replace your github URL to fastgit URL
 ## How To Use？
 ### Linux
 1. Clone fgit
-2. `ln -s` fgit/bin/fgit.sh to `/bin/`
+2. eq: `sudo ln -s /home/username/tools/fgit/bin/fgit.sh /bin/fgit`
 3. Use commands `fgit https://github.com/xxx/xxx.git ` to  use the fastgit.org clone repository
 
 ### Windows
