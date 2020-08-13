@@ -15,4 +15,4 @@ echo "Error: $1 isn't a github URL!"
 fi
 
 # Replace url And Call git
-git clone ${1/"github.com"/"hub.fastgit.org"/}
+git clone ${1/"github.com"/"hub.fastgit.org"}
