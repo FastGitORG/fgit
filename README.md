@@ -1,7 +1,9 @@
 # fgit
 A tool to replace your GitHub URL with fastgit URL automatically when cloning repositories.
 
-## How To Use？
+[简体中文](./README-zh_CN.md)
+
+## How To Use?
 ### Linux
 1. Clone fgit
 2. Execute in fgit folder: `sudo cp ./scripts/fgit.sh /usr/local/bin`
