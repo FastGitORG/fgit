@@ -2,7 +2,7 @@
 
 :: Check arguments
 IF "%1"=="" (
-    ECHO Error: expected a GitHub repository URL after fgit.
+    ECHO Error: Expected a GitHub repository URL after fgit.
     EXIT /B 1
 )
 

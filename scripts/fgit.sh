@@ -4,7 +4,7 @@
 
 # Check arguments
 if [ "$1" == "" ];then 
-    echo Error: expected a GitHub repository URL after fgit.
+    echo Error: Expected a GitHub repository URL after fgit.
     exit 1
 fi
 
