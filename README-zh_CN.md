@@ -11,5 +11,5 @@
 
 ### Windows
 1. 克隆本项目
-2. 将 fgit/bin 加入到你的环境变量 (PATH) 中
+2. 将 fgit/scripts 加入到你的环境变量 (PATH) 中
 3. 使用 `fgit https://github.com/xxx/xxx.git` 来克隆一个项目
