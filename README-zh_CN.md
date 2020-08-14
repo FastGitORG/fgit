@@ -1,9 +1,11 @@
 # fgit
+
 一个在克隆项目时自动把 GitHub 链接替换为 fastgit 链接的工具。
 
 [English](./README.md)
 
 ## 如何使用？
+
 ### Linux
 1. 克隆本项目
 2. 在项目文件夹中执行: `sudo cp ./scripts/fgit.sh /usr/local/bin`
