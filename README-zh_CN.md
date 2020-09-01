@@ -8,7 +8,7 @@
 
 ### Linux
 1. 克隆本项目
-2. 在项目文件夹中执行: `sudo cp ./scripts/fgit.sh /usr/local/bin`
+2. 在项目文件夹中执行: `sudo cp ./bin/fgit.sh /usr/local/bin`
 3. 使用 `fgit https://github.com/xxx/xxx.git` 来克隆一个项目
 
 ### Windows
