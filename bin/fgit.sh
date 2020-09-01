@@ -1,18 +1,21 @@
 #!/bin/bash
-# author:xkeyC
-# url:github.com/xkeyC
+# author: xkeyC (https://github.com/xkeyC)
+# author: Mivik (https://github.com/Mivik)
 
-# Check Parameter
-if [ "$1" == "" ];then 
-    echo "Error: Please follow the github URL behind \`fgit\`!"
-    exit 0
+# Check arguments
+if [ "$1" == "" ]; then 
+    echo Error: Expected a GitHub repository URL after fgit.
+    exit 1
 fi
 
 # Check URL
-if [[ "$1" != *"github.com"* ]]
-then
-echo "Error: $1 isn't a github URL!"
+if [[ "$1" != *"github.com"* ]]; then
+	echo "Error: $1 is not a GitHub URL!"
+	exit 1
 fi
 
-# Replace url And Call git
-git clone ${1/"github.com"/"hub.fastgit.org"}
+first=${1/"github.com"/"hub.fastgit.org"}
+shift
+
+# Replace URL and call git
+git clone $first $@
