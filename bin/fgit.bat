@@ -1,19 +1,19 @@
 @ECHO off
 
-:: Check Parameter
+:: Check arguments
 IF "%1"=="" (
-    ECHO Error: Please follow the github URL behind `fgit`!
+    ECHO Error: Expected a GitHub repository URL after fgit.
     EXIT /B 1
 )
 
 :: Check URL
 ECHO %1|findstr "github.com" >nul
 IF NOT %errorlevel% EQU 0 (
-    ECHO Error: %1 isn't a github URL!
+    ECHO Error: %1 is not a GitHub URL!
     EXIT /B 1
 )
 
-:: Replace url
+:: Replace URL
 set url=%1
 set url=%url:github.com=hub.fastgit.org%
 
